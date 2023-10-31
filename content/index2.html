@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<!--declaration defines that this document is an HTML5 document -->
+<html lang="en">
+  <!--element is the root element of an HTML page-->
+  <head>
+    <!--head-element contains meta information about the HTML page-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--title-element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)-->
+    <title>Document</title>
+
+    <!-- favicon-->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <!-- external css -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- internal css -- -->
+    <style>
+      h1 {
+        /* background-color: red; */
+        color: white;
+      }
+    </style>
+  </head>
+  <!--body-element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.-->
+  <body>
+    <!-- html headings -->
+    <h1 style="color: green">Welcome to Software Fellowship</h1>
+    <h2 style="background-color: pink">Welcome to Software Fellowship</h2>
+    <h3>Welcome to Software Fellowship</h3>
+    <h4>Welcome to Software Fellowship</h4>
+    <h5>Welcome to Software Fellowship</h5>
+    <h6>Welcome to Software Fellowship</h6>
+    <hr />
+    <!-- html para -->
+    <p>This is a paragraph</p>
+    <!-- formatting -->
+    <b>Bold text</b>
+    <i>Italics text</i>
+    <strong>Important text</strong>
+    <hr />
+
+    <!-- html links -->
+    <a href="https://www.google.com">Google</a>
+    <a href="./about.html">About</a>
+    <hr />
+
+    <!-- html images -->
+    <img src="./pic.jpg" alt="image" />
+    <hr />
+
+    <!-- html table -->
+    <table>
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+      </tr>
+      <tr>
+        <td>ABC</td>
+        <td>1234</td>
+      </tr>
+      <tr>
+        <td>XYZ</td>
+        <td>9841</td>
+      </tr>
+    </table>
+    <hr />
+
+    <!-- html lists:ordered and unordered -->
+    <ol type="i">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ol>
+    <ul style="list-style-type: square">
+      <li>Home</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+    <hr />
+
+    <!-- block and inline -->
+    <p>This is p block</p>
+    <h1>This is h1 block</h1>
+    <!--div-element defines a division or a section in an HTML document.-->
+    <div>This is div block</div>
+    <a href="https://www.google.com">Google inline tag</a>
+    <span>This is span inline</span>
+    <hr />
+
+    <!-- html iframe  -->
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/_W3R2VwRyF4?si=4LE654yRbAdaLsqo"
+      title="YouTube video player"
+      allowfullscreen
+    ></iframe>
+    <hr />
+
+    <!-- html entities and symbols -->
+    <h1>&lt;</h1>
+    <h1>&#60;</h1>
+    <h1>&part;</h1>
+    <h1>&Alpha;</h1>
+    <h1>&copy;</h1>
+    <h1>&#128514;</h1>
+    <!-- html form -->
+    <hr />
+    <form>
+      <h1>Text</h1>
+
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" /><br />
+      <h1>Radio</h1>
+
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">HTML</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">CSS</label>
+
+      <h1>Checkbox</h1>
+      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+      <label for="vehicle1"> I have a bike</label><br />
+      <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+      <label for="vehicle2"> I have a car</label><br />
+      <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+      <label for="vehicle3"> I have a boat</label><br />
+      <h1>Dropdown</h1>
+      <label for="cars">Choose a car:</label>
+      <select id="cars" name="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
+      </select>
+      <h1>Textarea</h1>
+      <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+        </textarea
+      >
+      <h1>Button</h1>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

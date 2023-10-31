@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        background-color: red;
+        border: 12px solid green;
+      }
+      #main {
+        color: white;
+        border: 12px solid pink;
+        padding: 20px;
+        margin: 20px;
+        height: 180px;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 16px;
+        font-weight: bolder;
+        font-style: italic;
+        text-align: center;
+
+        position: relative;
+        top: 0;
+      }
+      h1 {
+        width: 100%;
+        background-color: pink;
+      }
+      #main2 {
+        position: relative;
+        top: 0;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="main" class="container">
+      <h1>Hello</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maxime
+        quam corporis voluptas qui, nemo, sequi quibusdam neque fugit
+        recusandae, quo nisi necessitatibus. Aspernatur, labore delectus!
+        Reiciendis ipsa deserunt perspiciatis fuga optio sit dolor accusamus et
+        quas dignissimos voluptatem voluptate officiis ipsam aperiam repellendus
+        voluptas, aut doloremque nulla unde necessitatibus?
+      </p>
+    </div>
+    <div class="container" id="main2">
+      <h1>Hello</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil maxime
+        quam corporis voluptas qui, nemo, sequi quibusdam neque fugit
+        recusandae, quo nisi necessitatibus. Aspernatur, labore delectus!
+        Reiciendis ipsa deserunt perspiciatis fuga optio sit dolor accusamus et
+        quas dignissimos voluptatem voluptate officiis ipsam aperiam repellendus
+        voluptas, aut doloremque nulla unde necessitatibus?
+      </p>
+    </div>
+    <div style="height: 200vh; background-color: green"></div>
+  </body>
+</html>
